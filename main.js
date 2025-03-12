@@ -14,3 +14,9 @@ sideNav.style.left = "-100%";
 cover.style.display = 'none';
 body.classList.remove("active");
 	});
+
+cover.addEventListener("click", ()=> {
+sideNav.style.left = "-100%";
+cover.style.display = 'none';
+body.classList.remove("active");
+	});
